@@ -8,7 +8,7 @@
 #
 # the function should produce: 746865206b696420646f6e277420706c6179
 
-def fixXOR(s,t)
+def fixed_XOR(s,t)
     u = s.hex ^ t.hex
     u.to_s(16)
 end
@@ -16,4 +16,4 @@ end
 str0 = "1c0111001f010100061a024b53535009181c"
 str1 = "686974207468652062756c6c277320657965"
 
-p fixXOR(str0, str1)
+p fixed_XOR(str0, str1)
